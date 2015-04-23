@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newtest.MainActivity"
+    android:orientation="horizontal" >
+
+    <!-- <fragment
+        android:tag="com.example.newtest.TestListFragment"
+        android:name="com.example.newtest.TestListFragment"
+        android:layout_width="0dp"	
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"/> -->
+    
+    <fragment
+        android:tag="com.example.xdc.testimporteclipse.IndicatorFragment"
+        android:name="com.example.xdc.testimporteclipse.IndicatorFragment"
+        android:layout_width="0dp"	
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"/>
+
+</LinearLayout>
